@@ -59,11 +59,11 @@ if __name__ == '__main__':
     if not argv['-t']:
         targetless = []
         for line in output:
-            t_beg = line.find('<<') 
+            t_beg = line.rfind('<<') 
             t_end = line[t_beg:].find('>>')
             while t_beg != -1 and t_end != -1:
-                line = line[:t_beg] + line[t_end+2:]
-                t_beg = line.find('<<') 
+                line = line[:t_beg] + line[t_end+t_beg+2:]
+                t_beg = line.rfind('<<') 
                 t_end = line[t_beg:].find('>>')
             targetless += [line]
         output = targetless
