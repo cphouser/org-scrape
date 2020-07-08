@@ -70,5 +70,7 @@ if __name__ == '__main__':
 
     if not argv['-n']:
         output = '\n'.join([line for line in output if line.strip() != ""])
+    else:
+        output = '\n'.join(output)
 
     print(output)
