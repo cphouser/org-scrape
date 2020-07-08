@@ -11,11 +11,12 @@ Options:
 #+END_EXAMPLE
 
 ** configuration
-Edit the shebang line of scrape.py to point to a Python3 environment with the libraries in =requirements.txt=.
+- Edit the shebang line of scrape.py to point to a Python3 environment with the libraries in =requirements.txt=.
 
 
 * org-scrape.el
 An elisp snippet that defines a function to convert a link at the cursor to a heading in the current document rendered by =scrape.py=.
 
 ** configuration (spacemacs)
-Paste the snippet into the body of the function =(with-eval-after-load 'org body)= in =dotspacemacs/user-config=.
+- Edit the path of =scrape.py= to its stored location. 
+- Paste the snippet into the body of the function =(with-eval-after-load 'org body)= in =dotspacemacs/user-config=.
