@@ -6,7 +6,7 @@
 
  ...
 #+END_EXAMPLE
-Executuing org-scrape-link with the cursor on the above link replaces the same with a copy of the page (fetched through the python requests library, parsed with BeautifulSoup and converted to org syntax with pandoc):
+Executing org-scrape-link with the cursor on the above link replaces the same with a copy of the page (fetched through the python requests library, parsed with BeautifulSoup and converted to org syntax with pandoc):
 #+BEGIN_EXAMPLE
  ...
  ** GitHub - xeroxcat/org-scrape: scrape contents of a webpage and convert to org-mode markup language, adds as subtree to org document
