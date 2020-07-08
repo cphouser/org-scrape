@@ -19,7 +19,7 @@ Executuing org-scrape-link with the cursor on the above link replaces the same w
    - [[/features/integrations][Integrations]]
  ...
 #+END_EXAMPLE
-
+-----
 =example-2.org=
 #+BEGIN_EXAMPLE
  ...
