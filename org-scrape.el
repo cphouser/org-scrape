@@ -1,3 +1,5 @@
+;; thanks https://emacs.stackexchange.com/a/29473
+;; and https://emacs.stackexchange.com/a/49068
 (defun org-scrape-link ()
       (interactive)
       (let ((elem (org-element-context)))
