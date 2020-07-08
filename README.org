@@ -31,10 +31,23 @@ Executuing org-scrape-link with the cursor on the above link replaces the same w
 When the link has a description, it is interpreted as a CSS selector and only the first corresponding element is formatted and inserted.
 #+BEGIN_EXAMPLE
  ...
-   - [[/features/integrations][Integrations]]
+ ** GitHub - xeroxcat/org-scrape: scrape contents of a webpage and convert to org-mode markup language, adds as subtree to org document: div#readme
+ **** README.org
+      :PROPERTIES:
+      :CUSTOM_ID: readme.org
+      :CLASS:    Box-title pr-3
+      :END:
+ *** [[#usage][]]Usage
+     :PROPERTIES:
+     :CUSTOM_ID: usage
+     :END:
+  =example-1.org=
+  #+BEGIN_EXAMPLE
+      ...
  ...
 #+END_EXAMPLE
 
+Designed for easily caturing formatted text from websites into an org file with a focus on extracting the same field from a set of identically formatted pages.
 * Setup
 ** scrape.py
  Scrape to org-mode formatted text.
